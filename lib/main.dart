@@ -17,14 +17,12 @@ class MyApp extends StatelessWidget {
             ),
           ),
           actions: <Widget>[
-            Padding(
-                padding: EdgeInsets.only(right: 20.0),
-                child: GestureDetector(
-                  onTap: () {},
-                  child: Icon(
-                      Icons.more_vert
-                  ),
-                )
+            PopupMenuButton<int>(
+              onSelected: (item) => handleClick(item),
+              itemBuilder: (context) => [
+                PopupMenuItem<int>(value: 0, child: Text('Logout')),
+                PopupMenuItem<int>(value: 1, child: Text('Settings')),
+              ],
             ),
           ],
         ),
