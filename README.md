@@ -9,4 +9,3 @@ Steps to contribute to this project:
 5) push the changes --> git push origin <branch_name>.
 7) Raise a pull request.
 8) Once's the changes are approved.(squash and merge)
-testing
