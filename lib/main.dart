@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: const Text('Friends NGO Foundation'),
+          title: const Text('TVS Union'),
           leading: GestureDetector(
             onTap: () {/* Write listener code here */},
             child: Icon(
