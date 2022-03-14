@@ -1,5 +1,4 @@
-ssssss
- 
+
 Steps to contribute to this project:
 
 1) Clone the repository
